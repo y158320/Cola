@@ -1,4 +1,4 @@
-package com.ytg.leetcode.week;
+package com.ytg.leetcode.competition;
 
 import org.junit.jupiter.api.Test;
 

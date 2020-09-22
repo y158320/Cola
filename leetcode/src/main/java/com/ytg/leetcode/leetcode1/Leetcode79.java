@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-public class leetcode79 {
+public class Leetcode79 {
 
     @Test
     public void say()

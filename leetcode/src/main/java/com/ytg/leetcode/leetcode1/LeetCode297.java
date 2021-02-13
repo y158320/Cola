@@ -24,7 +24,6 @@ public class LeetCode297 {
     {
         if (root==null)
         {
-            str.append("null");
             str.append(",");
             return str;
         }

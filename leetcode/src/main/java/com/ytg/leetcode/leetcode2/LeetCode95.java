@@ -1,6 +1,7 @@
 package com.ytg.leetcode.leetcode2;
 
-import leetcode1.TreeNode;
+
+import com.ytg.leetcode.leetcode1.TreeNode;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -50,10 +51,10 @@ public class LeetCode95 {
             List<TreeNode> subRightTree = generateTrees(i + 1, end);
             for (TreeNode left : subLeftTree) {
                 for (TreeNode right : subRightTree) {
-                    TreeNode node = new TreeNode(i);
-                    node.left = left;
-                    node.right = right;
-                    res.add(node);
+//                    TreeNode node = new TreeNode(i);
+//                    node.left = left;
+//                    node.right = right;
+//                    res.add(node);
                 }
             }
         }

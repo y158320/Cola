@@ -32,7 +32,7 @@ public class LeetCode1004 {
         System.out.println("1");
     }
 
-    public int longestOnes(int[] A, int K) {
+    public int longestOnes (int[] A, int K) {
         int l = 0, r = 0, res = 0;
         while (r < A.length) {
             if (A[r] == 0) {
